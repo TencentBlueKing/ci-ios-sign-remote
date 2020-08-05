@@ -1,7 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c38ba6f6-18e5-4778-8ea0-8f31c1f29d62" name="Default Changelist" comment="" />
+    <list default="true" id="c38ba6f6-18e5-4778-8ea0-8f31c1f29d62" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/tencent/bk/devops/atom/IosSignAtom.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/tencent/bk/devops/atom/api/SignServiceApi.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/tencent/bk/devops/atom/pojo/AppexParam.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/tencent/bk/devops/atom/pojo/AppexSignInfo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/tencent/bk/devops/atom/pojo/IpaSignInfo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/tencent/bk/devops/atom/pojo/KvParam.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/tencent/bk/devops/atom/pojo/SignAtomParam.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/tencent/bk/devops/atom/pojo/SignResult.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/tencent/bk/devops/atom/utils/BkHttpUtils.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/tencent/bk/devops/atom/utils/SignInfoEncodeUtils.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/tencent/bk/devops/atom/utils/ZipUtil.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tencent/bk/devops/atom/task/DemoAtom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tencent/bk/devops/atom/task/pojo/AtomParam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/tencent/devops/GitCodeAtom.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/tencent/devops/api/CommitResourceApi.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/tencent/devops/api/CredentialResourceApi.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/tencent/devops/api/OauthResourceApi.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/tencent/devops/enums/AuthType.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/tencent/devops/enums/CodeEventType.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/tencent/devops/enums/CodePullStrategy.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/tencent/devops/enums/GitPullModeType.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/tencent/devops/enums/RepoAuthType.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/tencent/devops/enums/RepositoryConfig.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/tencent/devops/enums/RepositoryType.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/tencent/devops/enums/ScmType.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/tencent/devops/enums/StartType.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/tencent/devops/enums/ticket/CredentialType.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/tencent/devops/enums/utils/OSType.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/tencent/devops/exception/ClientException.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/tencent/bk/devops/atom/exception/ClientException.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/tencent/devops/exception/ParamBlankException.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/tencent/bk/devops/atom/exception/ParamBlankException.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/tencent/devops/pojo/CommitMaterial.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/tencent/devops/pojo/Constants.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/tencent/devops/pojo/GitCodeAtomParam.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/tencent/devops/pojo/GitPullMode.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/tencent/devops/pojo/GitToken.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/tencent/devops/pojo/utils/AgentEnv.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/tencent/devops/pojo/utils/CommitData.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/tencent/devops/pojo/utils/CommonEnv.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/tencent/devops/pojo/utils/CredentialInfo.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/tencent/devops/pojo/utils/DHKeyPair.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/tencent/devops/scm/CodeGitBlankCredentialSetter.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/tencent/devops/scm/CodeGitOauthCredentialSetter.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/tencent/devops/scm/CodeGitPullCodeSetting.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/tencent/devops/scm/CodeGitSshCredentialSetter.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/tencent/devops/scm/CodeGitUsernameCredentialSetter.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/tencent/devops/scm/FreshCheckoutTask.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/tencent/devops/scm/GitCredentialSetter.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/tencent/devops/scm/GitUpdateTask.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/tencent/devops/scm/IPullCodeSetting.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/tencent/devops/scm/RevertCheckoutTask.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/tencent/devops/utils/DHUtil.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/tencent/devops/utils/GitUtil.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/tencent/devops/utils/RepoCommitUtil.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/tencent/devops/utils/RepositoryConfigUtils.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/tencent/devops/utils/SSHAgentUtils.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/tencent/devops/utils/shell/BatScriptUtil.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/tencent/devops/utils/shell/CommandLineExecutor.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/tencent/devops/utils/shell/CommandLineUtils.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/tencent/devops/utils/shell/CommonShellUtils.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/tencent/devops/utils/shell/CredentialUtils.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/tencent/devops/utils/shell/SensitiveLineParser.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/tencent/devops/utils/shell/ShellUtil.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/services/com.tencent.bk.devops.atom.spi.TaskAtom" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/services/com.tencent.bk.devops.atom.spi.TaskAtom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task.json" beforeDir="false" afterPath="$PROJECT_DIR$/task.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,9 +94,40 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ios-sign" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ios-sign" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ios-sign" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ios-sign" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="shadow" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ios-sign" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -38,9 +145,10 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -52,6 +160,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -61,6 +170,25 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="ios-sign [buildZip]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="buildZip" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
@@ -78,6 +206,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.ios-sign [buildZip]" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -90,7 +223,7 @@
       <option name="presentableId" value="Default" />
       <updated>1596508509846</updated>
       <workItem from="1596508511873" duration="1170000" />
-      <workItem from="1596510998236" duration="3170000" />
+      <workItem from="1596510998236" duration="11753000" />
     </task>
     <servers />
   </component>
@@ -98,9 +231,33 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
+    <state width="2518" height="416" key="GridCell.Tab.0.bottom" timestamp="1596595435838">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2518" height="416" key="GridCell.Tab.0.bottom/-1680.236.1680.1050/0.0.2560.1440@0.0.2560.1440" timestamp="1596595435838" />
+    <state width="2518" height="416" key="GridCell.Tab.0.center" timestamp="1596595435835">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2518" height="416" key="GridCell.Tab.0.center/-1680.236.1680.1050/0.0.2560.1440@0.0.2560.1440" timestamp="1596595435835" />
+    <state width="2518" height="416" key="GridCell.Tab.0.left" timestamp="1596595435833">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2518" height="416" key="GridCell.Tab.0.left/-1680.236.1680.1050/0.0.2560.1440@0.0.2560.1440" timestamp="1596595435833" />
+    <state width="2518" height="416" key="GridCell.Tab.0.right" timestamp="1596595435836">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2518" height="416" key="GridCell.Tab.0.right/-1680.236.1680.1050/0.0.2560.1440@0.0.2560.1440" timestamp="1596595435836" />
     <state x="781" y="359" key="SettingsEditor" timestamp="1596529369860">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="781" y="359" key="SettingsEditor/-1680.236.1680.1050/0.0.2560.1440@0.0.2560.1440" timestamp="1596529369860" />
+    <state x="981" y="475" width="598" height="548" key="find.popup" timestamp="1596542307360">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="981" y="475" width="598" height="548" key="find.popup/-1680.236.1680.1050/0.0.2560.1440@0.0.2560.1440" timestamp="1596542307360" />
+    <state x="945" y="331" width="670" height="676" key="search.everywhere.popup" timestamp="1596544700530">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="945" y="331" width="670" height="676" key="search.everywhere.popup/-1680.236.1680.1050/0.0.2560.1440@0.0.2560.1440" timestamp="1596544700530" />
   </component>
 </project>

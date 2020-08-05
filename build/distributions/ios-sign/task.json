@@ -1,0 +1,140 @@
+{
+  "atomCode": "iOSSign",
+  "execution": {
+    "packagePath": "ios-sign.jar",
+    "language": "java",
+    "minimumVersion": "1.8",
+    "demands": [],
+    "target": "java -jar ios-sign.jar"
+  },
+  "input": {
+    "ipaPath": {
+      "label": "IPA file path",
+      "type": "vuex-input",
+      "desc": "The relative path of the IPA to be signed",
+      "required": true
+    },
+    "scenarioType": {
+      "label": "",
+      "default": "inner",
+      "placeholder": "Enterprise certificate type",
+      "type": "enum-input",
+      "desc": "",
+      "list": [
+        {
+          "value": "inner",
+          "label": "Certificate I"
+        },
+        {
+          "value": "outer",
+          "label": "Certificate II"
+        }
+      ],
+      "required": true,
+      "disabled": false,
+      "hidden": false
+    },
+    "profileType": {
+      "label": "Does it contain extensions",
+      "default": "single",
+      "placeholder": "If app contains extension(.appex) in PlugIns directory?",
+      "type": "enum-input",
+      "desc": "",
+      "list": [
+        {
+          "value": "single",
+          "label": "No"
+        },
+        {
+          "value": "multi",
+          "label": "Yes"
+        }
+      ],
+      "required": true,
+      "disabled": false,
+      "hidden": false
+    },
+    "mainProfile": {
+      "label": "Main description file",
+      "default": "",
+      "placeholder": "",
+      "type": "selector",
+      "desc": "Please specify a description file (.mobileprovision)",
+      "optionsConf": {
+        "searchable": true,
+        "multiple": false,
+        "url": "/ticket/api/user/certs/projects/{projectId}/hasPermissionList?certType=enterprise&permission=USE",
+        "paramId": "certId",
+        "paramName": "certId",
+        "itemTargetUrl": "/ticket/{projectId}/createCert",
+        "itemText": "Create certificate",
+        "hasAddItem": true
+      },
+      "required": true,
+      "disabled": false,
+      "hidden": false,
+      "isSensitive": false
+    },
+    "appexList": {
+      "label": "Appex info",
+      "type": "dynamic-parameter",
+      "required": true,
+      "desc": "Appex and its description file",
+      "rely": {
+        "operation": "AND",
+        "expression": [
+          {
+            "key": "profileType",
+            "value": "multi"
+          }
+        ]
+      },
+      "param": {
+        "paramType": "list",
+        "url": "",
+        "parameters": [
+          {
+            "id": "parameterId",
+            "paramModels": [
+              {
+                "id": "key1",
+                "placeholder": "The prefix of the .appex file name",
+                "label": "Appex name",
+                "type": "input",
+                "disabled": false,
+                "value": ""
+              },
+              {
+                "id": "value1",
+                "label": "Description file",
+                "type": "select",
+                "listType": "url",
+                "isMultiple": false,
+                "list": [],
+                "url": "/ticket/api/user/certs/projects/{projectId}/hasPermissionList?certType=enterprise&permission=USE",
+                "paramId": "certId",
+                "paramName": "certId",
+                "disabled": false,
+                "value": ""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "universalLinks": {
+      "label": "Universal Links (e.g:www.qq.com)",
+      "placeholder": "Fill with domain names, multiple can be separated by ';'",
+      "type": "vuex-input",
+      "desc": "",
+      "required": false
+    },
+    "keychainAccessGroups": {
+      "label": "Keychain Access Groups (e.g:group.com.tencent)",
+      "placeholder": "Fill with group names, multiple can be separated by ';'",
+      "type": "vuex-input",
+      "desc": "",
+      "required": false
+    }
+  }
+}
